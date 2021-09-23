@@ -14,7 +14,7 @@ public class Garage {
 	public void addVehicle(Vehicle vehicle) {
 		garage.add(vehicle);
 	}
-
+ 
 	public void removeVehicle(Vehicle vehicle) {
 		garage.remove(vehicle);
 	}
