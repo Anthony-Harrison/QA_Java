@@ -11,29 +11,14 @@ public class Garage {
 		return garage;
 	}
 
-	public void addVehicle(Car vehicle) {
+	public void addVehicle(Vehicle vehicle) {
 		garage.add(vehicle);
 	}
 
-	public void addVehicle(Motorbike vehicle) {
-		garage.add(vehicle);
-	}
-
-	public void addVehicle(Van vehicle) {
-		garage.add(vehicle);
-	}
-
-	public void removeVehicle(Car vehicle) {
+	public void removeVehicle(Vehicle vehicle) {
 		garage.remove(vehicle);
 	}
 
-	public void removeVehicle(Motorbike vehicle) {
-		garage.remove(vehicle);
-	}
-
-	public void removeVehicle(Van vehicle) {
-		garage.remove(vehicle);
-	}
 
 	public void garageList() {
 		for (int i = 0; i < getGarage().size(); i++)
